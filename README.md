@@ -1,25 +1,25 @@
-# Pic Smaller (图小小)
+# Flexifunnels 
 
-**Pic Smaller** is a super easy-to-use online image compression tool. Simply upload your desired image(s), and Pic Smaller will automatically perform its compress functionality and provide details on the results. Users can also customize features to suite their desired output, such as setting the output format or number of output colors. It's intuitive, website and mobile friendly, and supports compression configuration. At the same time, because of purely local compression without any server-side logic, it is completely safe.
+**Flexifunnels** is a super easy-to-use online image compression tool. Simply upload your desired image(s), and Flexifunnels will automatically perform its compress functionality and provide details on the results. Users can also customize features to suite their desired output, such as setting the output format or number of output colors. It's intuitive, website and mobile friendly, and supports compression configuration. At the same time, because of purely local compression without any server-side logic, it is completely safe.
 
 <br/>
 
 <div><img src="./docs/demo1.png"></div>
-Figure 1: Pic Smaller's landing page, where users can upload their images for compression
+Figure 1: Flexifunnels's landing page, where users can upload their images for compression
 <br/>
 <br/>
 <div><img src="./docs/demo2.png"></div>
-Figure 2: Example pictures uploaded for compression shown on the left, and Pic Smaller's customizable compression and editing features shown on the right
+Figure 2: Example pictures uploaded for compression shown on the left, and Flexifunnels's customizable compression and editing features shown on the right
 <br/>
 <br/>
 <div><img src="./docs/demo3.png"></div>
-Figure 3: Pic Smaller's comparison tool, that the user can drag to see the difference between the original and compressed image
+Figure 3: Flexifunnels's comparison tool, that the user can drag to see the difference between the original and compressed image
 <br/>
 <br/>
 
 ## Usage
 
-Pic smaller has been deployed to [`vercel`](https://vercel.com/), you can use it by visiting the URL [pic-smaller.vercel.app](https://pic-smaller.vercel.app). Due to the GFW, Chinese users can use it by visiting the URL [picsmaller.com](https://picsmaller.com/)
+Flexifunnels has been deployed to [`vercel`](https://vercel.com/), you can use it by visiting the URL [pic-smaller.vercel.app](https://pic-smaller.vercel.app). Due to the GFW, Chinese users can use it by visiting the URL [picsmaller.com](https://picsmaller.com/)
 
 > [picsmaller.com](https://picsmaller.com/) is a new domain that has just been applied for. The old domain [txx.cssrefs.com](https://txx.cssrefs.com/) is still accessible, but will be expired on `2025-02-22` and payment will not continue. Please use the latest domain to access the service.
 
@@ -81,7 +81,7 @@ Now you can access the project via http://127.0.0.1:3001. If you want your proje
 5. Create a Pull Request with an appropriate and descriptive title and description.
 6. You can reach out to other developers to review and merge the Pull Request if appropriate.
 
-Our standards for contributions: By using welcoming and inclusive language, respecting diverse viewpoints and experiences, embracing constructive criticism, and prioritizing what’s best for the community, we can create a positive and collaborative environment for everyone.
+Our standards for contributions: By using welcoming and inclusive language, respecting diverse viewpoints and experiences, embracing constructive criticism, and prioritizing what's best for the community, we can create a positive and collaborative environment for everyone.
 
 ## Project Structure
 

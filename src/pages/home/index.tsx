@@ -43,13 +43,6 @@ const Header = observer(() => {
             <Typography.Text>{getCurentLangStr()}</Typography.Text>
           </Flex>
         </Dropdown>
-        <Typography.Link
-          className={style.github}
-          target="_blank"
-          href="https://github.com/joye61/pic-smaller"
-        >
-          <GithubOutlined />
-        </Typography.Link>
 
         {/* If non-PC is determined, the menu button will be displayed */}
         {!isPC && homeState.list.size > 0 && (

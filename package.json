@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "build:preview": "tsc && vite build --mode preview",
-    "preview": "vite preview",
+    "preview": "npm run build && vite preview",
+    "deploy": "npm run build && wrangler deploy",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write --no-error-on-unmatched-pattern --ignore-unknown src/**/*",
     "test": "vitest run"
@@ -46,6 +47,7 @@
     "typescript": "^5.2.2",
     "vconsole": "^3.15.1",
     "vite": "^5.2.0",
-    "vitest": "^1.6.0"
+    "vitest": "^1.6.0",
+    "wrangler": "^4.21.2"
   }
 }

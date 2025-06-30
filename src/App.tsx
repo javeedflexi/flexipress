@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { Loading } from "./components/Loading";
 import { useResponse } from "./media";
 import { useEffect } from "react";
+import Footer from "./pages/home/Footer";
 
 function useMobileVConsole() {
   const { isMobile } = useResponse();
@@ -39,6 +40,7 @@ export const App = observer(() => {
       {import.meta.env.MODE === "production" && <Analytics />}
       {gstate.page}
       {gstate.loading && <Loading />}
+      <Footer />
     </ConfigProvider>
   );
 });

@@ -3,13 +3,13 @@ import enUS from "antd/locale/en_US";
 
 const localeData: LocaleData = {
   antLocale: enUS,
-  logo: "Flexifunnels",
+  logo: "FlexiFunnels - Image Compression",
   initial: "Initializing",
   previewHelp:
     "Drag the dividing line to compare the compression effect: the left is the original image, the right is the compressed image",
   uploadCard: {
     title: "Select files here, support dragging files and folders",
-    subTitle: "Open source batch image compression tool, supports %s format",
+    subTitle: "Supports %s format",
   },
   listAction: {
     batchAppend: "Batch append",
